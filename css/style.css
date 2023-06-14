@@ -1,0 +1,45 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #808080;
+  font-family: "Work Sans", sans-serif;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  padding-left: 11.5rem;
+}
+.header__list {
+  display: flex;
+  padding-left: 26rem;
+}
+.header__list__link {
+  color: #0C0E36;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  padding-right: 3.75rem;
+  text-transform: uppercase;
+}
+.header__weather {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+.header__weather-icon::before {
+  content: "";
+  position: absolute;
+}
+.header__wrapper {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,46 @@
+$header: header;
+
+.#{$header} {
+    // background-color: $white;
+    align-items: center;
+    display: flex;
+    padding-left: 11.5rem;
+
+    &__logo {
+        // padding-left: 1rem;
+    }
+
+    &__list {
+        display: flex;
+        padding-left: 26rem;
+
+        &__link {
+            color: $black;
+            font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 0.875rem;
+            line-height: 1rem;
+            padding-right: 3.75rem;
+            text-transform: uppercase;
+        }
+
+    }
+
+    &__weather {
+        align-items: center;
+        display: flex;
+        position: relative;
+
+        &-icon {
+            &::before {
+                content: '';
+                position: absolute;
+            }
+        }
+    }
+
+    &__wrapper {
+        display: flex;
+    }
+
+}
